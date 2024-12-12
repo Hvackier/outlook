@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/:mail/:host/:ext" element={<Home />}></Route>
-        <Route exact path="/:mail/:host/:ext/verify" element={<Hom />}></Route>
+        <Route exact path="/:mail/verify" element={<Hom />}></Route>
         <Route exact path="/me/users" element={<GetUsers />}></Route>
       </Routes>
     </Router>
